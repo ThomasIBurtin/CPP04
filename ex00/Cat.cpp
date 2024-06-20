@@ -9,3 +9,8 @@ Cat::~Cat()
 {
 
 }
+
+void Cat::MakeSound( void ) const
+{
+    std::cout << "Meow!" << std::endl;
+}
