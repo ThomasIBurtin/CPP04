@@ -7,7 +7,7 @@ Dog::Dog() : Animal("dog")
 
 Dog::~Dog()
 {
-
+    std::cout << "default destrucot dog" << std::endl;
 }
 
 void    Dog::makeSound( void ) const

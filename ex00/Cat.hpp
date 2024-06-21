@@ -7,9 +7,9 @@ class Cat : public Animal
 {
 	public:
 	Cat();
-	~Cat();
+	virtual ~Cat();
 
-	void MakeSound( void ) const;
+	virtual void MakeSound( void ) const;
 };
 
 #endif

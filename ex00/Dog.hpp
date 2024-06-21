@@ -5,12 +5,11 @@
 
 class Dog : public Animal
 {
-	
 	public:
 	Dog();
-	~Dog();
+	virtual ~Dog();
 
-	void makeSound( void ) const;
+	virtual void makeSound( void ) const;
 };
 
 #endif
